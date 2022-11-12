@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp"
+    android:minWidth="320dp"
+    android:minHeight="160dp"
+    app:cardBackgroundColor="#2F3971"
+    app:cardUseCompatPadding="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="30dp"
+    android:layout_gravity="center"
+    android:paddingTop="40dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you want to delete"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/delete_dialog_cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="16dp"
+            android:textColor="#D3EDEA"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"/>
+        <TextView
+            android:id="@+id/delete_dialog_delete_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Okay"
+            android:textSize="16dp"
+            android:textColor="#DA6161"
+            android:layout_weight="2"
+            android:layout_marginEnd="5dp"
+            android:textAlignment="textEnd"/>
+    </LinearLayout>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

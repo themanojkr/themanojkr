@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2F3971"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center">
+    <EditText
+        android:id="@+id/titles"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/title"
+        android:textSize="21sp"
+        android:textColor="#ffffff"
+        android:textColorHint="#fff"
+        android:paddingStart="20dp"/>
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#fff"
+        android:ems="20"
+        android:hint="@string/write_here"
+        tools:ignore="RtlSymmetry"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/cancel"
+            style="?android:attr/buttonBarStyle" />
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="@string/save"
+            style="?android:attr/buttonBarStyle" />
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
