@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on **Android Development**
 
-- 🌱 I’m currently learning **Flutter**
+- 🌱 I’m currently learning **Jetpack Compose**
 
 - 📫 How to reach me **manojkr32000@gmail.com**
 
