@@ -1,9 +1,9 @@
 
 ![MasterHead](https://user-images.githubusercontent.com/88922867/195992222-55c97f69-d7cc-4927-8876-988cb94b0056.gif)
 
-<h1 align="center">Hey there! 👋 I'm Manoj Kumar</h1>
+<h1 align="center">Hi! I'm Manoj Kumar 🤝</h1>
 
-<h3 align="center">A Passionate Android Developer from India 🚀</h3>
+<h3 align="center">Passionate Android Developer from India 🧑‍💻</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=themanojkr&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
