@@ -11,9 +11,9 @@
 
 **👨‍💻 About Me:**
 
-- 🔭 Currently working on **Android Development Projects**  
-- 🌱 Learning and diving deeper into **Jetpack Compose**  
-- 🎯 Exploring ways to **build seamless user experiences**  
+- 🔭 Working on **Android Projects**
+- 🌱 Learning **Jetpack Compose**
+- 🎯 Focused on **seamless UX**
 - 🌐 Check out my portfolio: <a href="https://themanojkr.github.io/Portfolio/" target="_blank">Click Here</a>
 - 📫 Reach me at: **manojkr32000@gmail.com**
 
